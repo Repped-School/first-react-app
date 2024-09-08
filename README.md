@@ -1,6 +1,27 @@
 # Random Useless Facts
 
-This is our first react project! We will be implen
+This is our first react project! We will be implement everything we have learned so far and other topic to see them in action.
+
+We will be using the [HTTP API for useless facts](https://uselessfacts.jsph.pl/)
+
+If you have never used an API, this will seem weird how the docs are writen. 
+
+The routes that you are given are preceeded by `https://uselessfacts.jsph.pl/` so for example:
+
+**THIS:** https://uselessfacts.jsph.pl/api/v2/facts/random?language=en
+
+**RETURNS THIS:**
+
+```json
+{
+    "id": "29fa57b8e8711069691de8625b28519b",
+    "text": "1 in every 4 Americans has appeared someway or another on television.",
+    "source": "djtech.net",
+    "source_url": "http://www.djtech.net/humor/useless_facts.htm",
+    "language": "en",
+    "permalink": "https://uselessfacts.jsph.pl/api/v2/facts/29fa57b8e8711069691de8625b28519b"
+}
+```
 
 [See Live Demo of this Template](https://drt-next-js-template-app-router.netlify.app/)
 
