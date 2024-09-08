@@ -1,4 +1,6 @@
-# NextJS with Firebase Auth App Router Template
+# Random Useless Facts
+
+This is our first react project! We will be implen
 
 [See Live Demo of this Template](https://drt-next-js-template-app-router.netlify.app/)
 
