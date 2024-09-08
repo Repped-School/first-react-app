@@ -2,12 +2,13 @@
 
 This is our first react project! We will be implement everything we have learned so far and other topic to see them in action.
 
-We will be using the [HTTP API for useless facts](https://uselessfacts.jsph.pl/)
+## API
 
-If you have never used an API, this will seem weird how the docs are writen. 
+We will be using the [HTTP API for useless facts](https://uselessfacts.jsph.pl/). If you have never used an API, this will seem weird how the docs are writen. 
 
 The routes that you are given are preceeded by `https://uselessfacts.jsph.pl/` so for example:
 
+### ENDPOINT/RESPONSE
 **THIS:** https://uselessfacts.jsph.pl/api/v2/facts/random?language=en
 
 **RETURNS THIS:**
@@ -23,6 +24,34 @@ The routes that you are given are preceeded by `https://uselessfacts.jsph.pl/` s
 }
 ```
 
+## Acceptance Criteria:
+Here's an acceptance criteria list for your React project:
+
+1. **User Authentication:**
+   - Users can log in using Firebase Authentication with email and password, Google, or another supported provider.
+
+2. **Fact Display:**
+   - The app fetches random facts from the Useless Facts API and displays them to the user one at a time.
+
+3. **User Interaction:**
+   - Each fact displayed has two buttons: “Yes” (indicating the user knew the fact) and “No” (indicating the user did not know the fact).
+   - When a button is clicked, the response is recorded with the fact ID, user ID, and response (true for “Yes,” false for “No”) in Firebase Realtime Database.
+
+4. **Data Saving:**
+   - Each user’s interaction with a fact is saved in the Firebase Realtime Database with the following structure:
+     - User ID
+     - Fact ID
+     - Response (true/false)
+
+5. **Viewing Responses:**
+   - Users can view a list of facts they responded “Yes” to (facts they knew).
+   - Users can view a list of facts they responded “No” to (facts they did not know).
+
+6. **Database Structure:**
+   - The data in Firebase Realtime Database is structured to associate each fact response with the corresponding user, ensuring easy retrieval of known and unknown facts.
+
+
+---
 [See Live Demo of this Template](https://drt-next-js-template-app-router.netlify.app/)
 
 ## Topics
