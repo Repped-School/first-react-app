@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { useAuth } from '@/utils/context/authContext';
-import { postFact, updateFact } from '../../api/facts';
+import { postFact, updateFact } from '@/api/facts';
 
 const initialState = {
   text: '',
