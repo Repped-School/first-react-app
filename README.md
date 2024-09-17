@@ -88,7 +88,7 @@ ___
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
 **NOTES:** 
-- If you see the following error, you did not follow all the setup steps correctly and failed to add your Firebase creds. Go back and do that NOW.
+- If you see the following error, you either did not follow all the setup steps correctly and failed to add your Firebase creds, or did not stop and restart your server after updating the env file. Go back and do that NOW.
 
 <img width="1043" alt="Screen Shot 2022-07-06 at 11 18 45 AM" src="https://user-images.githubusercontent.com/29741570/177612501-c2628f18-4bbd-4de9-aae6-27ffba1172d6.png">
 
